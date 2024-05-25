@@ -1,9 +1,11 @@
-let NombreUsuario1 = prompt("ingrese su nombre");
-let NombreProducto1= 14
-let precio= 5
+let NombreProducto = "Camperas"
+let precioUnitario = 500
+let cantidadDeseada
 
-Numero1 = 16
+cantidadDeseada = prompt ("¿Cuantas "+ NombreProducto + " deseas comprar?")
 
-prompt("cuantos articulos quiere comprar?")
+cantidadDeseada = parseInt(cantidadDeseada)
 
-console.log("tu nombre es:" ,NombreUsuario1);
+let costoTotal = precioUnitario * cantidadDeseada
+
+alert("el costo total de tu compra es: $" + costoTotal )
